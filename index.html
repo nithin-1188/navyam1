@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navyam atelier &amp; co | Architecture &amp; Spatial Design</title>
+  <meta name="description"
+    content="Navyam atelier &amp; co is an architectural and spatial design studio founded on intuitive craft, newness in materiality, and adaptability to evolving living environments.">
+  <meta name="keywords"
+    content="Navyam atelier &amp; co, architecture, spatial design, intuitive, newness, adaptability, landscape design, urban masterplan">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Oswald:wght@200;300;400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css?v=28">
+</head>
+
+<body>
+
+  <!-- ==========================================================================
+       GLOBAL SITE HEADER
+       ========================================================================== -->
+  <header class="site-header" id="main-header">
+    <a href="#home" class="brand-lockup">
+      <div class="brand-logo-combo">
+        <img src="Screenshot_2026-09-13_at_4.28.29_PM-removebg-preview.png" alt="Navyam Atelier &amp; Co Logo" class="header-logo-icon">
+        <div class="brand-text-wrap">
+          <span class="brand-title">Navyam</span>
+          <span class="brand-subtitle">atelier &amp; co</span>
+        </div>
+      </div>
+    </a>
+
+    <div class="header-actions">
+      <nav class="header-quick-links">
+        <a href="#projects" class="header-link">What We Do</a>
+        <a href="#studio" class="header-link">Who We Are</a>
+      </nav>
+
+      <button class="menu-toggle-btn" id="menu-toggle-btn" aria-label="Open Navigation Menu">
+        <span>Menu</span>
+        <div class="hamburger-icon">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </div>
+      </button>
+    </div>
+  </header>
+
+  <!-- ==========================================================================
+       FULLSCREEN NAVIGATION OVERLAY DRAWER
+       ========================================================================== -->
+  <div class="nav-overlay" id="nav-overlay" role="dialog" aria-modal="true">
+    <div class="nav-overlay-header">
+      <div class="brand-lockup">
+        <div class="brand-logo-combo">
+          <img src="Screenshot_2026-09-13_at_4.28.29_PM-removebg-preview.png" alt="Navyam Atelier &amp; Co Logo" class="header-logo-icon"
+            style="filter: brightness(1.2);">
+          <div class="brand-text-wrap">
+            <span class="brand-title" style="color: #00FFFF;">Navyam</span>
+            <span class="brand-subtitle" style="color: #00FFFF;">atelier &amp; co</span>
+          </div>
+        </div>
+      </div>
+
+      <button class="nav-close-btn" id="nav-close-btn" aria-label="Close Navigation Menu">
+        <span>Close &times;</span>
+      </button>
+    </div>
+
+    <div class="nav-overlay-body">
+      <nav>
+        <ul class="nav-links-list">
+          <li><a href="#home" class="nav-item-link">HOME</a></li>
+          <li><a href="#projects" class="nav-item-link">PROJECTS</a></li>
+          <li><a href="#studio" class="nav-item-link">STUDIO</a></li>
+          <li><a href="#contact" class="nav-item-link">CONTACT</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-overlay-info">
+        <div class="nav-info-block">
+          <h4>Studio Coordinates</h4>
+          <p>Hyderabad, Telangana - 500089</p>
+        </div>
+
+        <div class="nav-info-block">
+          <h4>Inquiries</h4>
+          <p><a href="mailto:navyamatelierco@gmail.com">navyamatelierco@gmail.com</a></p>
+          <p style="margin-top: 0.3rem;">
+            <a href="tel:+919640995276">+91 9640995276</a> / <a href="tel:+919573203040">+91 9573203040</a> / <a href="tel:+919182426125">+91 9182426125</a>
+          </p>
+        </div>
+
+        <div class="nav-info-block">
+          <h4>Follow</h4>
+          <div class="nav-social-links">
+            <a href="https://www.instagram.com/navyamatelierandco?igsi=NGZ2Y2JienE3eXh3&utm_source=qr" target="_blank"
+              rel="noreferrer" class="nav-social-link">Instagram</a>
+            <a href="https://linkedin.com" target="_blank" rel="noreferrer" class="nav-social-link">LinkedIn</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="nav-overlay-footer">
+      <span>Intuitive • Newness • Adaptability</span>
+      <span>&copy; 2026 Navyam atelier &amp; co. All rights reserved.</span>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       VIEW 1: INTRO / AMBIENT LANDING SCREEN (#intro)
+       ========================================================================== -->
+  <section class="page-view active" id="intro-view">
+    <div class="intro-center-card">
+      <div class="intro-logo-container">
+        <span class="intro-badge" style="text-transform: none !important;">Multi-disciplinary architecture &amp; design
+          studio</span>
+        <h1 class="intro-title"><span class="title-navyam"><i>Navyam</i></span> <span>Atelier</span> &amp; Co</h1>
+        <p class="intro-keywords">Intuitive &bull; Newness &bull; Adaptability</p>
+      </div>
+
+      <a href="#home" class="intro-explore-btn">
+        <span>EXPLORE</span>
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="5" y1="12" x2="19" y2="12"></line>
+          <polyline points="12 5 19 12 12 19"></polyline>
+        </svg>
+      </a>
+    </div>
+
+    <div class="intro-media-controls">
+      <button class="media-btn" id="sound-toggle-btn" aria-label="Toggle Ambient Audio">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+          <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+          <line x1="23" y1="9" x2="17" y2="15"></line>
+          <line x1="17" y1="9" x2="23" y2="15"></line>
+        </svg>
+      </button>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       VIEW 2: HOME VIEW (#home)
+       ========================================================================== -->
+  <section class="page-view" id="home-view">
+    <!-- Home Hero -->
+    <div class="home-hero-section">
+      <div class="hero-brand-badge-row">
+        <img src="Screenshot_2026-09-13_at_4.28.29_PM-removebg-preview.png" alt="Navyam Atelier &amp; Co Logo" class="hero-logo-mark">
+        <span class="hero-pill-badge">Studio Manifesto</span>
+      </div>
+      <h1 class="home-hero-headline">ARCHITECTURE &amp; SPATIAL DESIGN</h1>
+      <p class="home-hero-subheadline">Intuitive, Newness, and Adaptability</p>
+
+      <div class="home-hero-meta-row">
+        <span class="hero-section-label">Latest Works</span>
+        <p class="hero-manifesto-text">
+          
+        </p>
+      </div>
+    </div>
+
+    <!-- Featured Projects Showcase (4 Sections from the Wix template) -->
+    <div class="featured-projects-section">
+      <!-- 1. The Soul Foods -->
+      <article class="featured-project-item" data-project="the-soul-foods">
+        <img src="SoulFoods/soulfoods1.png" alt="The Soul Foods" class="featured-project-bg" loading="lazy">
+        <div class="featured-project-scrim"></div>
+        <div class="featured-project-content">
+          <div>
+            <div class="project-meta-pill">Architecture & Interiors</div>
+            <h2 class="featured-project-title">The Soul Foods</h2>
+          </div>
+          <span class="view-more-cta">
+            <span>View More</span>
+            <svg class="cta-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+          </span>
+        </div>
+      </article>
+
+      <!-- 2. Residential Green Building -->
+      <article class="featured-project-item" data-project="residential-green-building">
+        <img src="vega.png" alt="vega charge" class="featured-project-bg" loading="lazy">
+        <div class="featured-project-scrim"></div>
+        <div class="featured-project-content">
+          <div>
+            <div class="project-meta-pill">Architecture</div>
+            <h2 class="featured-project-title">Vega Charge</h2>
+          </div>
+          <span class="view-more-cta">
+            <span>View More</span>
+            <svg class="cta-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+          </span>
+        </div>
+      </article>
+
+      <!-- 3. Green Terraces Interiors -->
+      <article class="featured-project-item" data-project="green-terraces-interiors">
+        <img src="GreenTerraces/greenterraces1.png" alt="Green Terraces Interiors" class="featured-project-bg" loading="lazy">
+        <div class="featured-project-scrim"></div>
+        <div class="featured-project-content">
+          <div>
+            <div class="project-meta-pill">Residential Interiors</div>
+            <h2 class="featured-project-title">Green Terraces Interiors</h2>
+          </div>
+          <span class="view-more-cta">
+            <span>View More</span>
+            <svg class="cta-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+          </span>
+        </div>
+      </article>
+
+      <!-- 4. Thrdspace Studio -->
+      <article class="featured-project-item" data-project="thrdspace-studio">
+        <img src="ThrdspaceStudio/thrdspace1.jpeg" alt="Thrdspace Studio" class="featured-project-bg" loading="lazy">
+        <div class="featured-project-scrim"></div>
+        <div class="featured-project-content">
+          <div>
+            <div class="project-meta-pill">Interiors</div>
+            <h2 class="featured-project-title">Thrdspac</h2>
+          </div>
+          <span class="view-more-cta">
+            <span>View More</span>
+            <svg class="cta-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+          </span>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       VIEW 3: PROJECTS VIEW (#projects)
+       ========================================================================== -->
+  <section class="page-view" id="projects-view">
+    <div class="projects-intro-header">
+      <h1 class="page-headline">PROJECTS</h1>
+      <p class="projects-intro-copy">
+        Our curated body of architectural, landscape, and spatial commissions demonstrates how intuitive form, material
+        newness, and environmental adaptability coalesce. From high-density civic infrastructure to tranquil private
+        residences, explore how Nayvam atelier &amp; co transforms places.
+      </p>
+    </div>
+
+    <!-- Category Filters -->
+    <div class="projects-filter-bar">
+      <button class="filter-chip active" data-filter="all">All Projects</button>
+      <button class="filter-chip" data-filter="residential">Residential</button>
+      <button class="filter-chip" data-filter="commercial">Commercial</button>
+    </div>
+
+    <!-- Interactive Grid (All 6 projects from template) -->
+    <div class="projects-portfolio-grid" id="projects-grid"></div>
+  </section>
+
+  <!-- ==========================================================================
+       VIEW 4: STUDIO VIEW (#studio)
+       ========================================================================== -->
+  <section class="page-view" id="studio-view">
+    <!-- Studio Hero Banner -->
+    <div class="studio-hero-banner">
+      <img src="boss.jpeg"
+        alt="Nayvam atelier &amp; co Studio" class="studio-hero-bg">
+      <div class="studio-hero-overlay">
+        <!-- <h1 class="studio-hero-headline">THE ATELIER</h1> -->
+      </div>
+    </div>
+
+    <!-- Studio Story -->
+    <div class="studio-story-section">
+      <div class="studio-badge-col">
+        <img src="Screenshot_2026-09-13_at_4.28.29_PM-removebg-preview.png" alt="Navyam Atelier &amp; Co Logo" class="studio-logo-mark">
+        <span class="section-label-block">Studio Ethos</span>
+      </div>
+      <div>
+        <p class="story-lead-paragraph">
+          Architecture <span class="highlight-dot"></span>
+          Interiors <span class="highlight-dot"></span>
+          Photography <span class="highlight-dot"></span>
+          Product
+      </p>
+        <p class="story-body-paragraph">
+          NAVYAM is a multidisciplinary design studio founded by a <b>Lolitha Santoshini</b>, <b>Satwika Neela</b>,
+          <b>Ankitha Bejgam</b>, driven by a shared belief in creating thoughtful, meaningful spaces. We work at the
+          intersection of architecture, interior design, photography and experiences, blending creativity with a deep
+          respect for context, people and place. Our process is collaborative and hands-on, combining research, design
+          and storytelling to craft spaces that feel lived in, not just built.
+        </p>
+        </br></br>
+        <p>At Navyam, we don't believe in a prescribed way of designing.
+
+          Every project has its own language, character, and set of possibilities. Our approach is to listen before
+          we intervene to understand the site, its context, its constraints, and even its imperfections.
+
+          We work with what exists rather than working against it.
+
+          We observe, interpret, experiment, and adapt allowing materials, surroundings, function, and circumstance
+          to influence the direction of the design. Sometimes, the most unexpected ideas emerge from the most ordinary
+          conditions.
+
+          We don't begin with a solution and force it onto a space. We allow the space to inform the idea.
+
+          For us, design is an act of response rather than imposition finding what is already possible, uncovering
+          what is overlooked, and giving each space its due.</p>
+      </div>
+    </div>
+
+    <!-- Approach Pillars -->
+    <div class="studio-approach-section">
+      <div class="approach-header-row">
+        <span class="section-label-block">Design Philosophy</span>
+        <h2 style="font-size: 2.4rem; margin-top: 0.8rem; color: #00FFFF;">OUR APPROACH</h2>
+      </div>
+
+      <div class="approach-pillars-grid">
+        <div class="pillar-card">
+          <span class="pillar-number">01 / NEWNESS</span>
+          <p class="pillar-text">
+            We reject the dogma of repetitive form. Newness arises from unexpected material dialogues pairing low-carbon
+            rammed earth with ultra-refined bronze, or regenerative bio-timber with hydro-thermal glazing systems.
+          </p>
+        </div>
+
+        <div class="pillar-card">
+          <span class="pillar-number">02 / INTUITIVE</span>
+          <p class="pillar-text">
+            Spaces should be comprehended effortlessly through the senses before they are analyzed intellectually. We
+            study human gait, natural light ingress, acoustic resonance, and tactile transitions to create effortless
+            emotional resonance.
+          </p>
+        </div>
+
+        <div class="pillar-card">
+          <span class="pillar-number">03 / ADAPTABILITY</span>
+          <p class="pillar-text">
+            Living architecture must respond to changing micro-climates and generational shifts. Our plans incorporate
+            flexible structural envelopes, passive solar breathing corridors, and reconfigurable partition frameworks.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Team Section -->
+
+
+    <!-- Careers / Jobs Section -->
+    <div class="studio-jobs-section">
+      <span class="section-label-block">Opportunities</span>
+      <div>
+        <h2 style="font-size: 2.2rem; color: #00FFFF; margin-bottom: 1rem;">JOIN OUR STUDIO</h2>
+        <p class="story-body-paragraph">
+          We are perpetually seeking designers who share our dedication to intuitive craftsmanship and sustainable
+          newness.
+        </p>
+
+        <div class="vacancy-box">
+          <a href="#contact" class="apply-btn">Submit Portfolio &amp; CV &rarr;</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       VIEW 5: CONTACT VIEW (#contact)
+       ========================================================================== -->
+  <section class="page-view" id="contact-view">
+    <button type="button" class="contact-top-close-btn" id="contact-top-close-btn" aria-label="Close Contact and return to Home">&times;</button>
+    <div class="contact-layout-grid">
+      <!-- Left Info Column -->
+      <div class="contact-info-col">
+        <div>
+          <span class="hero-pill-badge" style="color: #00FFFF;">Connect</span>
+          <h1 class="contact-headline">GET IN TOUCH</h1>
+          <p class="contact-intro-text">
+    
+          </p>
+
+          <div class="contact-blocks-list">
+            <div class="contact-block">
+              <h4>Hyderabad Studio</h4>
+              <p>Hyderabad, Telangana - 500089</p>
+            </div>
+
+            <div class="contact-block">
+              <h4>Electronic Communication</h4>
+              <p><a href="mailto:navyamatelierco@gmail.com">navyamatelierco@gmail.com</a></p>
+              <p style="margin-top: 0.3rem;">
+                <a href="tel:+919640995276">+91 9640995276</a> / <a href="tel:+919573203040">+91 9573203040</a> / <a href="tel:+919182426125">+91 9182426125</a>
+              </p>
+            </div>
+
+            <div class="contact-block">
+              <h4>Hours of Consultation</h4>
+              <p>Monday &ndash; Saturday: 10:00 &ndash; 18:30 IST</p>
+              <p>By appointment only</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="nav-social-links" style="margin-top: 3rem;">
+          <a href="https://www.instagram.com/navyamatelierandco?igsi=NGZ2Y2JienE3eXh3&utm_source=qr" target="_blank"
+            rel="noreferrer" class="nav-social-link">Instagram</a>
+          <a href="https://linkedin.com" target="_blank" rel="noreferrer" class="nav-social-link">LinkedIn</a>
+        </div>
+      </div>
+
+      <!-- Right Form Column -->
+      <div class="contact-form-col">
+        <h2 class="form-header-title">START A COMMISSION</h2>
+
+        <form class="inquiry-form" id="inquiry-form">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="first-name">First Name *</label>
+              <input type="text" id="first-name" required placeholder="Alexander">
+            </div>
+            <div class="form-group">
+              <label for="last-name">Last Name *</label>
+              <input type="text" id="last-name" required placeholder="Vane">
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="email">Email Address *</label>
+              <input type="email" id="email" required placeholder="alexander@example.com">
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" placeholder="+1 (555) 000-0000">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="project-type">Project Typology</label>
+            <select id="project-type">
+              <option value="residential">Architecture</option>
+              <option value="cultural">Interiors</option>
+              <option value="landscape">Photography</option>
+              <option value="commercial">Product</option>
+              <option value="career">Career / Portfolio Submission</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Project Vision &amp; Scope *</label>
+            <textarea id="message" required
+              placeholder="Describe your site location, timeline, and spatial intentions..."></textarea>
+          </div>
+
+          <button type="submit" class="form-submit-btn">Transmit Inquiry &rarr;</button>
+
+          <div class="form-notification" id="form-notification"></div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       PROJECT DETAIL MODAL CASE STUDY (#project-detail)
+       ========================================================================== -->
+  <div class="project-modal-container" id="project-modal" role="dialog" aria-modal="true">
+    <div class="project-modal-card">
+      <button class="modal-close-trigger" id="modal-close-btn" aria-label="Close Case Study">
+        &times;
+      </button>
+
+      <div class="modal-hero-cover">
+        <img id="modal-hero-img" src="" alt="Project Hero" class="modal-hero-img">
+        <div class="modal-hero-overlay">
+          <h1 class="modal-project-title" id="modal-title"></h1>
+        </div>
+      </div>
+
+      <div class="modal-body-content">
+        <div class="modal-facts-sidebar">
+          <div class="fact-item">
+            <h4>Typology</h4>
+            <p id="modal-type"></p>
+          </div>
+          <div class="fact-item">
+            <h4>Client</h4>
+            <p id="modal-client"></p>
+          </div>
+          <div class="fact-item">
+            <h4>Area</h4>
+            <p id="modal-area"></p>
+          </div>
+          <div class="fact-item">
+            <h4>Location</h4>
+            <p id="modal-location"></p>
+          </div>
+        </div>
+
+        <div class="modal-narrative-section">
+          <p class="modal-narrative-text" id="modal-desc"></p>
+
+          <h3 style="font-size: 1.4rem; color: var(--espresso-brown); margin-top: 1rem;">SPATIAL GALLERY</h3>
+          <div class="modal-gallery-grid" id="modal-gallery"></div>
+        </div>
+      </div>
+
+      <div class="modal-pagination-footer">
+        <button class="modal-nav-btn" id="modal-prev-btn">&larr; Previous Work</button>
+        <a href="#projects" class="modal-nav-btn" style="color: var(--burnt-sienna);">All Projects</a>
+        <button class="modal-nav-btn" id="modal-next-btn">Next Work &rarr;</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- GALLERY LIGHTBOX FULLSCREEN PREVIEW -->
+  <div class="gallery-lightbox" id="gallery-lightbox" role="dialog" aria-modal="true" aria-hidden="true"
+    aria-label="Gallery Image Preview">
+    <button class="lightbox-close-btn" id="lightbox-close-btn" aria-label="Close Preview">&times;</button>
+    <button class="lightbox-nav-btn lightbox-prev" id="lightbox-prev-btn" aria-label="Previous Image">&#10094;</button>
+    <div class="lightbox-stage">
+      <img id="lightbox-img" src="" alt="Enlarged Spatial View" class="lightbox-image">
+      <div class="lightbox-counter" id="lightbox-counter"></div>
+    </div>
+    <button class="lightbox-nav-btn lightbox-next" id="lightbox-next-btn" aria-label="Next Image">&#10095;</button>
+  </div>
+
+  <!-- ==========================================================================
+       GLOBAL STUDIO FOOTER
+       ========================================================================== -->
+  <footer class="site-footer">
+    <div class="footer-top-grid">
+      <div class="footer-brand-col">
+        <div class="footer-brand-lockup">
+          <div class="brand-logo-combo footer-brand-combo">
+            <img src="Screenshot_2026-09-13_at_4.28.29_PM-removebg-preview.png" alt="Navyam Atelier &amp; Co Logo" class="header-logo-icon"
+              style="filter: brightness(1.2);">
+            <div class="brand-text-wrap">
+              <span class="brand-title" style="color: var(--ivory-sand);">Navyam</span>
+              <span class="brand-subtitle" style="color: var(--text-light-muted);">atelier &amp; co</span>
+            </div>
+          </div>
+          <p class="footer-brand-sub" style="margin-top: 0.8rem;">Newness &bull; Intuitive &bull; Adaptability</p>
+        </div>
+        <p class="footer-brand-desc">
+          An architectural practice cultivating conscious environments where spatial intuition, material innovation, and
+          living adaptability converge.
+        </p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Navigation</h4>
+        <ul class="footer-links-nav">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#studio">Studio &amp; Approach</a></li>
+          <li><a href="#contact">Contact &amp; Commissions</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Studio</h4>
+        <div class="footer-coords">
+          <p>Hyderabad, Telangana - 500089</p>
+          <p style="margin-top: 0.5rem;"><a href="mailto:navyamatelierco@gmail.com">navyamatelierco@gmail.com</a></p>
+          <p style="margin-top: 0.3rem;">
+            <a href="tel:+919640995276">+91 9640995276</a> / <a href="tel:+919573203040">+91 9573203040</a> / <a href="tel:+919182426125">+91 9182426125</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom-row">
+      <span>&copy; 2026 Navyam atelier &amp; co. All rights reserved.</span>
+      <div class="footer-social-cluster">
+        <a href="https://www.instagram.com/navyamatelierandco?igsi=NGZ2Y2JienE3eXh3&utm_source=qr" target="_blank"
+          rel="noreferrer">Instagram</a>
+        <a href="https://linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js?v=15"></script>
+</body>
+
+</html>

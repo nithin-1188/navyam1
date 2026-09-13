@@ -1,0 +1,12 @@
+{
+  "name": "navyam-atelier",
+  "version": "1.0.0",
+  "description": "Navyam atelier & co - Architecture & Spatial Design studio website",
+  "scripts": {
+    "dev": "npx serve -l 3000 .",
+    "start": "npx serve -l 3000 ."
+  },
+  "keywords": ["architecture", "spatial-design", "portfolio"],
+  "author": "Navyam atelier & co",
+  "license": "ISC"
+}
